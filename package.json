@@ -1,0 +1,20 @@
+{
+  "name": "data-fetch",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "fetch-paginate": "^3.2.1",
+    "graphql-request": "^1.8.2",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "latest",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "web3-utils": "^1.2.5-rc.0"
+  },
+  "license": "ISC"
+}
