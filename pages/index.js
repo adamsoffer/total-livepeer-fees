@@ -4,7 +4,6 @@ import fetch from "isomorphic-unfetch";
 import { request, GraphQLClient } from "graphql-request";
 import Utils from "web3-utils";
 function Index(props) {
-  console.log(props.data);
   return (
     <div
       style={{
