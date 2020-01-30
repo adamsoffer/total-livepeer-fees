@@ -34,10 +34,7 @@ function Index(props) {
 Index.getInitialProps = async () => {
   const endpoint =
     "https://api.thegraph.com/subgraphs/name/adamsoffer/livepeer-tickets";
-  const graphQLClient = new GraphQLClient(endpoint, {
-    credentials: "include",
-    mode: "cors"
-  });
+  const graphQLClient = new GraphQLClient(endpoint);
   const query = `
     {
       stats {
